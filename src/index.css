@@ -12,37 +12,4 @@ code {
     monospace;
 }
 
-a {
-  background:rgb(38, 95, 88);
-  background-color: rgb(38, 95, 88);
-  padding: 50px;
-  width: 100px;
-  height: 100px;
-  border: 2px solid white;
-  border-radius: 5px;
-  /* color: white; */
-}
-.button {
-  background: rgb(38, 95, 88);
-  height: 80px;
-  width: 100%;
-}
-.ship {
-  padding: 50px;
-  /* width: 80%; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: .8rem;
-  font-weight: 600; */
-  background:rgb(38, 95, 88);
-  border: 2px solid white;
-  border-radius: 5px;
-  color: white;
-}
-
-#selectedShip {
-  margin: 50% auto;
-  color: white;
-}
+ 

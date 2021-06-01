@@ -26,9 +26,9 @@ const App = () => {
   }, [])
 
   const select = (e, index) => {
-    console.log('clicked')
+    console.log('clicked', e.target);
     setSelectedShip([])
-  setSelectedShip({ name: e.target.name, model: e.target.id });
+  setSelectedShip({ name: e.target.name, model: e.target.id, manufacturer: e.target.value });
   };
 
   if (isLoaded === false) {
